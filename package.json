@@ -4,7 +4,8 @@
   "description": "Book shop example application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack",
     "start": "webpack serve",
     "prettier-watch": "onchange \"**/*\" --exclude-path .gitignore -- prettier --write --ignore-unknown {{changed}}",
@@ -25,10 +26,9 @@
   "bugs": {
     "url": "https://github.com/thrashches/book_shop_frontend/issues"
   },
-  "homepage": "https://github.com/thrashches/book_shop_frontend#readme",
+  "homepage": "https://github.com/Niokla/Project-React.git",
   "dependencies": {
     "css-loader": "^6.7.3",
-    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
     "onchange": "^7.1.0",
     "prettier": "^2.8.1",
@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "mini-css-extract-plugin": "^2.7.2",
     "webpack-dev-server": "^4.11.1"
