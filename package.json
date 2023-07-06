@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thrashches/book_shop_frontend.git"
+    "url": "git+https://github.com/Niokla/Project-React.git"
   },
   "keywords": [
     "book_shop",
@@ -24,7 +24,7 @@
   "author": "thrashches",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thrashches/book_shop_frontend/issues"
+    "url": "https://github.com/Niokla/Project-React/issues"
   },
   "homepage": "https://github.com/Niokla/Project-React.git",
   "dependencies": {
